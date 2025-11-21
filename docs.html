@@ -220,22 +220,31 @@
   </style>
   <script>
     console.log(window.location.hash);
-    const post = (window.location.pathname=="/infographic/docs"?"#getting-started":window.location.hash);
+    var post = (window.location.pathname=="/infographic/docs"?"#getting-started":window.location.hash);
     let posthtml = "";
     let nexturl =null;
     let prevurl =null;
     var jsondata = null;
     var itemsdiv = document.getElementById("galleryitems");
     function updatecontent(){
-          if(jsondata){
-                let selected =false;
-                for(let c=0;c<Object.keys(jsondata.items).length;c++){
+            for(let c=0;c<Object.keys(jsondata.items).length;c++){
                   if(post == jsondata.items[c].url ){
-                    selected = true;
                     nexturl = jsondata.items[c+1]?jsondata.items[c+1].url:null;
                     prevurl = jsondata.items[c-1]?jsondata.items[c-1].url:null;
                     posthtml = "<h3>"+jsondata.items[c].title+"</h3>"+jsondata.items[c].html;
-                  } else{selected=false;}
+                  }
+            }
+            let sitem = document.getElementById("selecteditem");
+            sitem.innerHTML=posthtml+"<br>"+(prevurl?("<a href='"+prevurl+"' class='bttn-3' style='float:left;'>Previous</a>"):"")+(nexturl?("<a href='"+nexturl+"' class='bttn-3' style='float:right;'>Next</a>"):"");
+            document.getElementById("scroller").scrollIntoView();
+            } 
+    }
+    self.httpGet('blogitems.json',function(t){
+            jsondata = JSON.parse(t);
+            if(jsondata){
+                let selected =false;
+                for(let c=0;c<Object.keys(jsondata.items).length;c++){
+                  selected = (post == jsondata.items[c].url)
                   let node = document.createElement("div");
                   let item = document.getElementById("galleryitems").appendChild(node);
                   item.setAttribute("class", "");
@@ -245,18 +254,11 @@
                   item.innerHTML=code;
 
                 }
-            let sitem = document.getElementById("selecteditem");
-            sitem.innerHTML=posthtml+"<br>"+(prevurl?("<a href='"+prevurl+"' class='bttn-3' style='float:left;'>Previous</a>"):"")+(nexturl?("<a href='"+nexturl+"' class='bttn-3' style='float:right;'>Next</a>"):"");
-            document.getElementById("scroller").scrollIntoView();
-            } 
-    }
-    self.httpGet('blogitems.json',function(t){
-            jsondata = JSON.parse(t);
             updatecontent();
         });
 
     window.addEventListener("hashchange", () => {
-      console.log("Hash changed to:", location.hash);
+      post = window.location.hash
       updatecontent()
     });
         
