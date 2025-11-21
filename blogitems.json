@@ -4,7 +4,7 @@
 		{
 			"id": 1,
 			"title": "Getting Started",
-			"url": "/infographic-docs/getting-started",
+			"url": "/infographic/docs#getting-started",
 			"status": "active",
 			"created": "2020-08-10 12:04:43",
 			"modified": "2020-08-10 12:07:11",
@@ -15,7 +15,7 @@
 		{
 			"id": 2,
 			"title": "Import from Power Point",
-			"url": "/infographic-docs/import-from-power-point",
+			"url": "/infographic/docs#import-from-power-point",
 			"status": "active",
 			"created": "2020-08-10 12:04:43",
 			"modified": "2020-08-10 12:07:11",
@@ -26,7 +26,7 @@
 		{
 			"id": 3,
 			"title": "Import from Sample Gallery",
-			"url": "/infographic-docs/import-from-gallery",
+			"url": "/infographic/docs#import-from-gallery",
 			"status": "active",
 			"created": "2020-08-10 12:04:43",
 			"modified": "2020-08-10 12:07:11",
@@ -37,7 +37,7 @@
 		{
 			"id": 4,
 			"title": "Simple Formatting",
-			"url": "/infographic-docs/simple-formatting",
+			"url": "/infographic/docs#simple-formatting",
 			"status": "active",
 			"created": "2020-08-10 12:04:43",
 			"modified": "2020-08-10 12:07:11",
@@ -48,7 +48,7 @@
 		{
 			"id": 5,
 			"title": "Simple Data Binding",
-			"url": "/infographic-docs/simple-data-binding",
+			"url": "/infographic/docs#simple-data-binding",
 			"status": "active",
 			"created": "2020-08-10 12:04:43",
 			"modified": "2020-08-10 12:07:11",
@@ -59,7 +59,7 @@
 		{
 			"id": 6,
 			"title": "Switch to Preview Mode",
-			"url": "/infographic-docs/previewmode",
+			"url": "/infographic/docs#previewmode",
 			"status": "active",
 			"created": "2020-08-10 12:04:43",
 			"modified": "2020-08-10 12:07:11",
@@ -70,7 +70,7 @@
 		{
 			"id": 7,
 			"title": "Doing Math & Number Formatting",
-			"url": "/infographic-docs/math-number-formatting",
+			"url": "/infographic/docs#math-number-formatting",
 			"status": "active",
 			"created": "2020-08-10 12:04:43",
 			"modified": "2020-08-10 12:07:11",
@@ -81,7 +81,7 @@
 		{
 			"id": 8,
 			"title": "Conditional Values - If/Else",
-			"url": "/infographic-docs/conditional-fx",
+			"url": "/infographic/docs#conditional-fx",
 			"status": "active",
 			"created": "2020-08-10 12:04:43",
 			"modified": "2020-08-10 12:07:11",
@@ -92,7 +92,7 @@
 		{
 			"id": 9,
 			"title": "Transform Animations",
-			"url": "/infographic-docs/shape-animations",
+			"url": "/infographic/docs#shape-animations",
 			"status": "active",
 			"created": "2020-08-10 12:04:43",
 			"modified": "2020-08-10 12:07:11",
@@ -103,7 +103,7 @@
 		{
 			"id": 10,
 			"title": "Text Animations",
-			"url": "/infographic-docs/text-animations",
+			"url": "/infographic/docs#text-animations",
 			"status": "active",
 			"created": "2020-08-10 12:04:43",
 			"modified": "2020-08-10 12:07:11",
@@ -114,7 +114,7 @@
 		{
 			"id": 11,
 			"title": "Advanced Color Fill",
-			"url": "/infographic-docs/advanced-fill",
+			"url": "/infographic/docs#advanced-fill",
 			"status": "active",
 			"created": "2020-08-10 12:04:43",
 			"modified": "2020-08-10 12:07:11",
@@ -125,7 +125,7 @@
 		{
 			"id": 12,
 			"title": "Category Support & Selections 🆕",
-			"url": "/infographic-docs/category-support-selections",
+			"url": "/infographic/docs#category-support-selections",
 			"status": "active",
 			"created": "2020-08-10 12:04:43",
 			"modified": "2020-08-10 12:07:11",
@@ -136,7 +136,7 @@
 		{
 			"id": 14,
 			"title": "Row Aggregations 🆕",
-			"url": "/infographic-docs/row-aggregations",
+			"url": "/infographic/docs#row-aggregations",
 			"status": "active",
 			"created": "2020-08-10 12:04:43",
 			"modified": "2020-08-10 12:07:11",
@@ -147,7 +147,7 @@
 		{
 			"id": 15,
 			"title": "Repeating Paterns & Duplicates 🆕",
-			"url": "/infographic-docs/repeating-patterns-duplicates",
+			"url": "/infographic/docs#repeating-patterns-duplicates",
 			"status": "active",
 			"created": "2020-08-10 12:04:43",
 			"modified": "2020-08-10 12:07:11",
@@ -159,7 +159,7 @@
 		{
 			"id": 16,
 			"title": "Bookmarks & Drill-through Support 🆕",
-			"url": "/infographic-docs/bookmarks-drillthrough-support",
+			"url": "/infographic/docs#bookmarks-drillthrough-support",
 			"status": "active",
 			"created": "2020-08-10 12:04:43",
 			"modified": "2020-08-10 12:07:11",
@@ -171,7 +171,7 @@
 		{
 			"id": 20,
 			"title": "Click & Hover Actions",
-			"url": "/infographic-docs/click-hover-actions",
+			"url": "/infographic/docs#click-hover-actions",
 			"status": "active",
 			"created": "2020-08-10 12:04:43",
 			"modified": "2020-08-10 12:07:11",
@@ -182,7 +182,7 @@
 		{
 			"id": 21,
 			"title": "Advanced Formulas",
-			"url": "/infographic-docs/advanced-formulas",
+			"url": "/infographic/docs#advanced-formulas",
 			"status": "active",
 			"created": "2020-08-10 12:04:43",
 			"modified": "2020-08-10 12:07:11",
@@ -193,7 +193,7 @@
 		{
 			"id": 99,
 			"title": "<i class='fa fa-envelope-o'></i> Contact with Support",
-			"url": "/infographic-docs/support",
+			"url": "/infographic/docs#support",
 			"status": "active",
 			"created": "2020-08-10 12:04:43",
 			"modified": "2020-08-10 12:07:11",
@@ -203,4 +203,5 @@
 		}
 		
 	]
+
 }
